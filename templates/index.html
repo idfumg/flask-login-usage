@@ -1,0 +1,7 @@
+<html>
+  <body>
+    {% if current_user.is_authenticated() %}
+    logined in successfully for user: {{ current_user.id }}
+    {% endif %}
+  </body>
+</html>
